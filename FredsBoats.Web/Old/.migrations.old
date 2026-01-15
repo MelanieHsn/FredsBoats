@@ -26,3 +26,4 @@
 
         // Navigation
         public ICollection<CustReservation> CustReservations { get; set; } = new List<CustReservation>()
+    }
