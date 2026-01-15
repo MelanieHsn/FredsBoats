@@ -10,5 +10,11 @@ namespace FredsBoats.Web.Models
 
         // Navigation
         public ICollection<CustReservation> CustReservations { get; set; } = new List<CustReservation>();
+        public int CustomerId{get;set;}
+        public string? Name{get;set;}
+        public string? Surname{get;set;}
+        public string? Address{get;set;}
+        public string? Telephone{get;set;}
+        public bool Licence {get;set;}
     }
 }
